@@ -11,9 +11,13 @@ Simulates basic banking operations like deposit, withdrawal, and balance inquiry
 
 ### 2. ONLINE FOOD ORDER
 Menu display (veg/nonveg)
+
 price display
+
 price calculation
+
 Apply discount coupons 
+
 Order confirmation
 
 ### 3. 
