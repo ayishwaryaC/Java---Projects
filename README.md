@@ -9,7 +9,12 @@ This repository contains a collection of Java projects designed to strengthen an
 ### 1. SMART ATM SIMULATOR
 Simulates basic banking operations like deposit, withdrawal, and balance inquiry using object-oriented programming.
 
-### 2. 
+### 2. ONLINE FOOD ORDER
+Menu display (veg/nonveg)
+price display
+price calculation
+Apply discount coupons 
+Order confirmation
 
 ### 3. 
 
