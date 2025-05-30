@@ -124,7 +124,7 @@ public class Main {
         
         
         System.out.println("Thank you, " + name + "! Your final total is " + total);
-        System.out.println("Your order will be delivered soon!");   
+        System.out.println("Your order will be delivered soon!:)");   
         } 
 }
 }
