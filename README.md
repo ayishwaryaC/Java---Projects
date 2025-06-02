@@ -10,17 +10,19 @@ This repository contains a collection of Java projects designed to strengthen an
 Simulates basic banking operations like deposit, withdrawal, and balance inquiry using object-oriented programming.
 
 ### 2. ONLINE FOOD ORDER
-Menu display (veg/nonveg)
-
-price display
-
-price calculation
-
-Apply discount coupons 
-
+Menu display (veg/nonveg),
+price display,
+price calculation,,
+Apply discount coupons ,
 Order confirmation
 
-### 3. 
+### 3. STUDENT RESULT MANAGEMENT
+Features:
+Enter marks for subjects,
+Calculate total, average,
+Assign grades (A+, A, B+, B, C , F) based on average,
+Fail/pass decision
+
 
 ### 4. 
 
