@@ -24,7 +24,11 @@ Assign grades (A+, A, B+, B, C , F) based on average,
 Fail/pass decision
 
 
-### 4. 
+### 4. TRAFFIC LIGHT CONTROLLER SIMULATOR
+Featurs:
+Enter current signal,
+Show what a driver should do(STRAT,STOP,SLOW DOWN),
+Emeregency handling logic.
 
 ### 5.
 
