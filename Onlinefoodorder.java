@@ -16,7 +16,7 @@ public class Main {
         int vegprice = 0;
         int nonvegprice = 0;
         int total = 0;
-        int coupon = 1010;
+        int coupon = 0707;
         if (choice == 1) {
             System.out.println("The veg items available now:");
             System.out.println("1. Masala Dosa");
