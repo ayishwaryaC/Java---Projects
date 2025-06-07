@@ -8,7 +8,7 @@ class Main {
         System.out.println("        Choose your Category             ");
         System.out.println("        1.Electronis");
         System.out.println("        2.Clothes");
-        System.out.println("        3.Groceries");
+        System.out.println("        3.Groceris");
         int choice = sc.nextInt();
         System.out.println("");
         if(choice == 1){
