@@ -1,131 +1,179 @@
 import java.util.*;
-
-public class Main {
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        String name = sc.next();
-        System.out.println("    WELCOME TO ONLINE FOOD ORDER (:    " + name);
-        System.out.println();
-        System.out.println("HERE IS YOUR MENU CARD, " + name);
-        System.out.println("Choose your option below");
-        System.out.println("1. VEG ITEMS");
-        System.out.println("2. NON-VEG ITEMS");
-        int attempts = 0;
+        int totalamount = 0;
+        System.out.println("");
+        System.out.println("        -------------------E-COMMERCE CART----------------------       ");
+        System.out.println("");
+        System.out.println("        Choose your Category             ");
+        System.out.println("        1.Electronis");
+        System.out.println("        2.Clothes");
+        System.out.println("        3.Groceris");
         int choice = sc.nextInt();
-        int vegprice = 0;
-        int nonvegprice = 0;
-        int total = 0;
-        int coupon = 0707;
-        if (choice == 1) {
-            System.out.println("The veg items available now:");
-            System.out.println("1. Masala Dosa");
-            System.out.println("2. Plain Dosa");
-            System.out.println("3. Idly");
-            System.out.println("4. Veg Meals");
-            vegprice = sc.nextInt();
-        } else if (choice == 2) {
-            System.out.println("The non-veg items available now:");
-            System.out.println("5. Biriyani");
-            System.out.println("6. Chicken Rice");
-            System.out.println("7. Chicken Noodles");
-            System.out.println("8. Non-Veg Meals");
-            nonvegprice = sc.nextInt();
-        } else {
+        
+        System.out.println("");
+        if(choice == 1){
+            System.out.println("----Electronis Product avaiable----");
+            System.out.println("1 AC");
+            System.out.println("2 Washing Machine");
+            System.out.println("3 Hair dyer");
+            System.out.println("4 oven");
+            
+            int choice2 = sc.nextInt();
+            if(choice2 == 1){
+                System.out.println("---- AC avaiable----");
+                System.out.println("1 Blue Star");
+                System.out.println("2 Daikin");
+                System.out.println("3 Voltas");
+                System.out.println("4 LG");
+                
+                int choice2l1 = sc.nextInt();
+                if(choice2l1 == 1){
+                    totalamount += 50000;
+                    System.out.println("Blue Star rate : 50000");
+                }else if(choice2l1 == 2){
+                    totalamount += 60000;
+                    System.out.println("Daikin rate : 60000");
+                }else if(choice2l1 == 3){
+                    totalamount += 40000;
+                    System.out.println("Voltas rate : 40000");
+                }else if(choice2l1 == 4){
+                    totalamount += 30000;
+                    System.out.println("LG rate : 30000");
+                }else {
+                    System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+                }
+            }else if(choice2 == 2){
+                System.out.println("----Washing machine avaiable----");
+                System.out.println("1.Samsung");
+                System.out.println("2.Whirlpool");
+                System.out.println("3.IFB");
+                System.out.println("4.Bosch");
+                
+                int choice2l2 = sc.nextInt();
+                if(choice2l2 == 1){
+                    totalamount += 50000;
+                    System.out.println("Samsung rate : 50000");
+                }else if(choice2l2 == 2){
+                    totalamount += 60000;
+                    System.out.println("Whirlpool rate : 60000");
+                }else if(choice2l2 == 3){
+                    totalamount += 40000;
+                    System.out.println("IFB rate : 40000");
+                }else if(choice2l2 == 4){
+                    totalamount += 30000;
+                    System.out.println("Bosch rate : 30000");
+                }else {
+                    System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+                }
+           }else if(choice2 == 3){
+               System.out.println("----Hair dyer Product avaiable----");
+               System.out.println("1.Philips");
+               System.out.println("2.Dyson");
+               System.out.println("3.Havells");
+               System.out.println("4.Panasonic");
+               int choice2l3 = sc.nextInt();
+                if(choice2l3 == 1){
+                    totalamount += 10000;
+                    System.out.println("Philips rate : 10000");
+                }else if(choice2l3 == 2){
+                    totalamount += 15000;
+                    System.out.println("Dyson rate : 15000");
+                }else if(choice2l3 == 3){
+                    totalamount += 12000;
+                    System.out.println("Harvells rate : 12000");
+                }else if(choice2l3 == 4){
+                    totalamount += 10000;
+                    System.out.println("Panasonic rate : 10000");
+                }else {
+                    System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+                }
+           }else if(choice2 == 4){
+               System.out.println("----oven Product avaiable----");
+               System.out.println("1.IFB");
+               System.out.println("2.Samsung");
+               System.out.println("3.LG");
+               System.out.println("4.Bajaj");
+               int choice4l1 = sc.nextInt();
+                if(choice4l1 == 1){
+                    totalamount += 50000;
+                    System.out.println("IFB rate : 50000");
+                }else if(choice4l1 == 2){
+                    totalamount += 50000;
+                    System.out.println("Samsung rate : 60000");
+                }else if(choice4l1 == 3){
+                    totalamount += 50000;
+                    System.out.println("LG rate : 40000");
+                }else if(choice4l1 == 4){
+                    totalamount += 50000;
+                    System.out.println("Bajaj rate : 30000");
+                }else {
+                    System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+                }
+           }else {
+               System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+            }
+        }else if(choice == 2){
+            System.out.println("----Clothes avaiable----");
+            System.out.println("1.Ladies Dress");
+            System.out.println("2.Gents Dress");
+            int choice2l1 = sc.nextInt();
+            if(choice2l1 == 1 ){
+                System.out.println("1.Zara");
+                System.out.println("2.H&M");
+                int choice2ll1 = sc.nextInt();
+                if(choice2ll1 == 1){
+                    totalamount += 5000;
+                    System.out.println("1.Zara : 5000");
+                }else if(choice2ll1 == 2){
+                    totalamount += 6000;
+                    System.out.println("2.H&M  : 6000");
+                }else{
+                    System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+                }
+                
+            }else if(choice2l1 == 2){
+                System.out.println("1.Zara");
+                System.out.println("1.H&M");
+                int choice2ll2 = sc.nextInt();
+                if(choice2ll2 == 1){
+                    totalamount += 5000;
+                    System.out.println("1.Zara : 5000");
+                }else if(choice2ll2 == 2){
+                    totalamount += 6000;
+                    System.out.println("2.H&M  : 6000");
+                }else{
+                    System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+                }
+            }
+            
+        }else if(choice == 3){
+            System.out.println("----Groceries Product avaiable----");
+            System.out.println("1.Rice");
+            System.out.println("2.wheat");
+            int choice3ll1 = sc.nextInt();
+            if(choice3ll1 == 1) {
+                totalamount += 150;
+                System.out.println("1kg Rice : 150");
+            }else if(choice3ll1 == 2){
+                totalamount += 100;
+                System.out.println("1kg Wheat : 100");
+            }else{
+                System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
+            }
+        }else {
             System.out.println("YOU ENTERED THE WRONG OPTION ): PLEASE CHOOSE THE CORRECT OPTION");
         }
-
-        // Handle veg selection
-        if (vegprice == 1) {
-            System.out.println("One plate Masala Dosa price: 100");
-        } else if (vegprice == 2) {
-            System.out.println("One plate Plain Dosa price: 50");
-        } else if (vegprice == 3) {
-            System.out.println("One plate Idly price: 50");
-        } else if (vegprice == 4) {
-            System.out.println("One plate Veg Meals price: 150");
-        } else{
-            System.out.println("");
-        }
-
-        // Handle non-veg selection
-        if (nonvegprice == 5) {
-            System.out.println("One plate Biriyani price: 100");
-        } else if (nonvegprice == 6) {
-            System.out.println("One plate Chicken Rice price: 150");
-        } else if (nonvegprice == 7) {
-            System.out.println("One plate Chicken Noodles price: 250");
-        } else if (nonvegprice == 8) {
-            System.out.println("One plate Non-Veg Meals price: 250");
-        } else{
-            System.out.println(" ");
-        }
-     
-     
-     
-        while (attempts <= 3) {
-            attempts = sc.nextInt();
-            int item = sc.nextInt();
-
-            if (item == 0) {
-                break;
-            }
-
-            if (item == 1) {
-                total += 100;
-                System.out.println("Masala Dosa added. Total = " + total);
-            } else if (item == 2) {
-                total += 50;
-                System.out.println("Plain Dosa added. Total = " + total);
-            } else if (item == 3) {
-                total += 50;
-                System.out.println("Idly added. Total = " + total);
-            } else if (item == 4) {
-                total += 150;
-                System.out.println("Veg Meals added. Total = " + total);
-            } else if (item == 5) {
-                total += 100;
-                System.out.println("Biriyani added. Total = " + total);
-            } else if (item == 6) {
-                total += 150;
-                System.out.println("Chicken Rice added. Total = " + total);
-            } else if (item == 7) {
-                total += 250;
-                System.out.println("Chicken Noodles added. Total = " + total);
-            } else if (item == 8) {
-                total += 250;
-                System.out.println("Non-Veg Meals added. Total = " + total);
-        } else {
-                attempts++;
-                if(attempts < 3){
-                    System.out.println("YOU ENTERED THE WRONG PIN - PLEASE TRY AGAIN! Attempts left: " + (3 - attempts));
-                } else {
-                    System.out.println("YOUR ATTEMPTS ARE OVER - YOUR ACCOUNT IS BLOCKED!");
-                }
-        }
         
-         System.out.println("DO YOU HAVE ANY COUPONS AVAILABLE-TYPE-Y/N");
-          String response = sc.next();
-
-        if (response.equalsIgnoreCase("Y")) {
-            System.out.println("Please enter your coupon code:");
-            
-         int usercoupon = sc.nextInt();
-         
-         if(coupon == usercoupon){
-             System.out.println("***Sparkling*** -- YOU GOT AS DISCOUNT");
-             double discount = total * 0.20;
-                total -= discount;
-                System.out.println("Coupon applied! You saved ₹" + (int)discount);
-            } else {
-                System.out.println("Invalid coupon code. No discount applied.");
-            }
-        }
-        
-        
-        System.out.println("Thank you, " + name + "! Your final total is " + total);
-        System.out.println("Your order will be delivered soon!:)");   
-        } 
+       System.out.println("\n----------------------------");
+       System.out.println("YOU HAVE A DISCOUNT 50% FOR SHOPPING");
+       double discount = totalamount * 0.50;
+                totalamount -= discount;
+        System.out.println("TOTAL AMOUNT :  " + totalamount);
+        System.out.println("----------------------------");
+        System.out.println("\n----------------------------");
+        System.out.println("ORDER PLACED");
+        System.out.println("THANK YOU FOR BUYING");
+    } 
 }
-}
-
