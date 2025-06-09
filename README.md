@@ -30,7 +30,12 @@ Enter current signal,
 Show what a driver should do(STRAT,STOP,SLOW DOWN),
 Emeregency handling logic.
 
-### 5.
+### 5. Simple E-Commerce Cart Logic
+Features:
+Select category (Electronics, Clothes, Groceries),
+Show items based on category,
+Apply discounts based on amount.
+
 
 ### 6. 
 
