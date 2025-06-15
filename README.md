@@ -37,9 +37,19 @@ Show items based on category,
 Apply discounts based on amount.
 
 
-### 6. 
+### 6. Smart Assistant (Text-Based)
+Features:
+User types command like:
+Time, Weather, News, Joke, Exit.
+Assistant replies with mock output,
+Invalid command shows help
 
-### 7. 
+
+### 7. Number guessing game
+Features:
+User should enter the random number.
+If the randome number(guess) is equal to target.
+User guessed it number as crt.
 
 ### 8.
 
