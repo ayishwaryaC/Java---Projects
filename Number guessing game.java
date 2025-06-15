@@ -1,13 +1,30 @@
-import java.util.Scanner;
-public class GuessGame {
+import java.util.*;
+
+class Main {
     public static void main(String[] args) {
-        int secret = 7;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Guess a number (1-10): ");
-        int guess = sc.nextInt();
-        if (guess == secret)
-            System.out.println("Correct! 🎉 You guessed it!"); ff
-        else
-            System.out.println("Wrong! ❌ The number was " + secret);
+        Random rand = new Random();
+
+        int target = 9; 
+        // int attempts = sc.nextInt();
+
+        System.out.println("--------WELCOME TO NUMBER GUESSING GAME--------");
+        System.out.println("Guess a number between 1 and 30:");
+        int attempts = 0;
+        while (attempts<5) {
+            int guess = sc.nextInt();
+            attempts++;
+
+            if (guess == target) {
+                System.out.println("Correct! You guessed it in " + attempts + " attempts.");
+                break;
+            } else if (guess < target) {
+                System.out.println("Too low! Try again:");
+            } else {
+                System.out.println("Too high! Try again:");
+            }
+        }
+        
+        sc.close();
     }
 }
