@@ -58,7 +58,7 @@ Calculate BMI
 Show category: Underweight , Normal , Overweight , Obese.
 
 
-### 9. 8. Quiz App with Grading
+### 9. Quiz App with Grading
 Features:
 5–10 questions (multiple choice)
 Score calculation
