@@ -51,7 +51,12 @@ User should enter the random number.
 If the randome number(guess) is equal to target.
 User guessed it number as crt.
 
-### 8.
+### 8.BMI(Body Mass Index)
+ Features:
+Enter height and weight
+Calculate BMI
+Show category: Underweight , Normal , Overweight , Obese.
+
 
 ### 9.
 
