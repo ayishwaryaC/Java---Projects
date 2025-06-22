@@ -52,13 +52,19 @@ If the randome number(guess) is equal to target.
 User guessed it number as crt.
 
 ### 8.BMI(Body Mass Index)
- Features:
+Features:
 Enter height and weight
 Calculate BMI
 Show category: Underweight , Normal , Overweight , Obese.
 
 
-### 9.
+### 9. 8. Quiz App with Grading
+Features:
+5–10 questions (multiple choice)
+Score calculation
+Grade based on score - 90+ => A , 80+ => B
+etc...
+
 
 ### 10. 
 
