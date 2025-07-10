@@ -66,7 +66,11 @@ Grade based on score - 90+ => A , 80+ => B
 etc...
 
 
-### 10. 
+### 10. Encapsulation 
+Encapsulation1.java
+Encapsulation2.java
+Encapsulation3.java
+Encapsulation4.java
 
 ### 11. 
 
